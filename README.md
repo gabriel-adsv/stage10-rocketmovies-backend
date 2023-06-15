@@ -19,7 +19,6 @@ Neste desafio, foi proposto a criação de um backend para registros de filmes c
 - Preenchimento de informações do filme como nome, descrição e nota<br>
 - Criação de tags relacionadas ao filme
 </p>
-<br>
 
 ## 🚀 Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -28,6 +27,17 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 Atividade feita no Stage 10 do curso Explorer da Rocketseat. Onde é feito uma página de registros de filme utilizando node e express no backend.
+
+## 🚀 Rodando o projeto
+
+```bash
+npm install
+npm run dev # to start nodemon
+npx knex migrate:make 'migrationName' # to create a migration
+npm run migrate # to create a migration in database
+
+'config file .env with the examples of file .env.example'
+```
 
 - [Acesse o projeto finalizado, online](https://github.com/gabriel-adsv/stage10-rocketmovies-backend)
 
